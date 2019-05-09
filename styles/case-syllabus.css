@@ -2,6 +2,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 main {
@@ -109,6 +110,16 @@ mark {
   background: rgb(0, 255, 34);
 }
 
-mark.current {
-  background:orange
+.professor-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.professor-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
