@@ -34,13 +34,13 @@
 - [Visual Studio Code](https://code.visualstudio.com/) - editor
 - [Tables Generator (HTML)](https://www.tablesgenerator.com/html_tables)
 - [Google Analytics](https://analytics.google.com/analytics/web/)
-- [W3C Markup Validation Service](https://validator.w3.org/)
-- [W3C Css Validation Service](https://jigsaw.w3.org/css-validator/validator)
-- [PurifyCSS](https://purifycss.online/)
-- [Icons8](https://icons8.com)
 - [Google Workbox](https://developers.google.com/web/tools/workbox/)
 - [JsDoc Cheatsheet](https://devhints.io/jsdoc)
 - [Test JavaScript Regular Expressions](https://regexr.com/)
+- [Prettier](https://prettier.io/)
+- [ESLint](https://eslint.org/)
+- [Favicon.io](https://favicon.io)
+- [PWA Builder App Image Generator](https://www.pwabuilder.com/imageGenerator)
 
 ## Getting Started
 
@@ -54,11 +54,6 @@
 ## Automatic Code Formatting and Cleanup
 
 Professional development teams typically use standard tools to automatically format and fix code.
-
-We use:
-
-- [Prettier](https://prettier.io/) to format many file types
-- [ESLint](https://eslint.org/) to lint JavaScript based on the [JS Standard Style](https://standardjs.com/).
 
 - To test automatic formatting and linting, open a PowerShell Window in this folder as an adminstrator. Run the following commands to install packages, format the code, and view recommendations.
 
