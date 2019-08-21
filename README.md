@@ -1,8 +1,8 @@
 # [44-386 Digital Forensics Syllabus](https://profcase.github.io/44-386-digital-forensics-syllabus)
 
-[![Lighthouse score: 92/100](https://lighthouse-badge.appspot.com/?score=92&category=Performance)](https://github.com/ebidel/lighthouse-badge)
+[![Lighthouse score: 91/100](https://lighthouse-badge.appspot.com/?score=91&category=Performance)](https://github.com/ebidel/lighthouse-badge)
 [![Lighthouse score: 100/100](https://lighthouse-badge.appspot.com/?score=100&compact&category=Accessibility)](https://github.com/ebidel/lighthouse-badge)
-[![Lighthouse score: 100/100](https://lighthouse-badge.appspot.com/?score=93&compact&category=Best%20Practices)](https://github.com/ebidel/lighthouse-badge)
+[![Lighthouse score: 100/100](https://lighthouse-badge.appspot.com/?score=100&compact&category=Best%20Practices)](https://github.com/ebidel/lighthouse-badge)
 [![Lighthouse score: 100/100](https://lighthouse-badge.appspot.com/?score=100&compact&category=SEO)](https://github.com/ebidel/lighthouse-badge)
 [![Lighthouse score: 13/13](https://lighthouse-badge.appspot.com/?score=100&compact&category=Progressive%20Web%20App)](https://github.com/ebidel/lighthouse-badge)
 
