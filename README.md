@@ -1,4 +1,4 @@
-# [44-386 Digital Forensics Syllabus](https://profcase.github.io/44-386-digital-forensics-syllabus)
+# [44-386 Digital Forensics Syllabus](https://denisecase.github.io/44-386-digital-forensics-syllabus)
 
 [![Lighthouse score: 91/100](https://lighthouse-badge.appspot.com/?score=91&category=Performance)](https://github.com/ebidel/lighthouse-badge)
 [![Lighthouse score: 100/100](https://lighthouse-badge.appspot.com/?score=100&compact&category=Accessibility)](https://github.com/ebidel/lighthouse-badge)
@@ -6,11 +6,11 @@
 [![Lighthouse score: 100/100](https://lighthouse-badge.appspot.com/?score=100&compact&category=SEO)](https://github.com/ebidel/lighthouse-badge)
 [![Lighthouse score: 13/13](https://lighthouse-badge.appspot.com/?score=100&compact&category=Progressive%20Web%20App)](https://github.com/ebidel/lighthouse-badge)
 
-[![Known Vulnerabilities](https://snyk.io//test/github/profcase/44-386-digital-forensics-syllabus/badge.svg?targetFile=package.json)](https://snyk.io//test/github/profcase/44-386-digital-forensics-syllabus?targetFile=package.json)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a4e281ec5fd4ebcaccb3b8b2c3fc66d)](https://www.codacy.com/app/profcase/44-386-digital-forensics-syllabus?utm_source=github.com&utm_medium=referral&utm_content=profcase/44-386-digital-forensics-syllabus&utm_campaign=Badge_Grade)
+[![Known Vulnerabilities](https://snyk.io//test/github/denisecase/44-386-digital-forensics-syllabus/badge.svg?targetFile=package.json)](https://snyk.io//test/github/denisecase/44-386-digital-forensics-syllabus?targetFile=package.json)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a4e281ec5fd4ebcaccb3b8b2c3fc66d)](https://www.codacy.com/app/denisecase/44-386-digital-forensics-syllabus?utm_source=github.com&utm_medium=referral&utm_content=denisecase/44-386-digital-forensics-syllabus&utm_campaign=Badge_Grade)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![GitHub repo size](https://img.shields.io/github/repo-size/profcase/44-386-digital-forensics-syllabus?style=flat)
+![GitHub repo size](https://img.shields.io/github/repo-size/denisecase/44-386-digital-forensics-syllabus?style=flat)
 
 - Denise Case
 - Assistant Professor
@@ -18,8 +18,8 @@
 
 ## Links
 
-- Site: <https://profcase.github.io/44-386-digital-forensics-syllabus>
-- Source: <https://github.com/profcase/44-386-digital-forensics-syllabus>
+- Site: <https://denisecase.github.io/44-386-digital-forensics-syllabus>
+- Source: <https://github.com/denisecase/44-386-digital-forensics-syllabus>
 
 ## Prerequistes
 
@@ -69,4 +69,4 @@ This syllabus is a progressive web app, and can be installed on mobile and other
 
 ## See Also
 
-For more information about generating custom icons, formatting, linting, and more, see [Web Apps Syllabus README.md](https://github.com/profcase/44-563-webapps-syllabus).
+For more information about generating custom icons, formatting, linting, and more, see [Web Apps Syllabus README.md](https://github.com/denisecase/44-563-webapps-syllabus).
