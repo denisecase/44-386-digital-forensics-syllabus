@@ -4,7 +4,6 @@
     <!--  establish early connections to important third-party origins -->
     <link rel="preconnect" href="https://www.googletagmanager.com" />
     <link rel="preconnect" href="https://storage.googleapis.com" />
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
     <link rel="preconnect" href="https://use.fontawesome.com" />
     <link rel="preconnect" href="https://stackpath.bootstrapcdn.com" />
 
@@ -459,7 +458,16 @@
             </ul>
           </div>
 
-          <nw-syllabus-outline></nw-syllabus-outline>
+          <nw-syllabus-outline
+            mod1="Course intro, digital forensics profession and investigations, facilities, data aquisition (Ch1-3)"
+            mod2="Processing scenes, Windows, tools (Ch 4-5)"
+            mod3="Tools, Mac systems, Linux systems (Ch 6-7)"
+            mod4="Recovery, forensics analysis & validation (Ch 8-9)"
+            mod5="VM, cloud, network forensics (Ch 10-11)"
+            mod6="Email and mobile forensics (Ch 12-13)"
+            mod7="Ethics, review, final submission"
+          >
+          </nw-syllabus-outline>
 
           <h2>Instructional Methods and Techniques</h2>
 
@@ -593,10 +601,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- Include custom web components -->
-
-    <script defer src="./web-components/nw-syllabus-outline.js"></script>
-
     <!-- Include shared scripts -->
 
     <script
@@ -610,6 +614,10 @@
     <script
       defer
       src="https://denisecase.github.io/44-517-bigdata-syllabus/web-components/nw-syllabus-nw-standard.js"
+    ></script>
+    <script
+      defer
+      src="https://denisecase.github.io/44-517-bigdata-syllabus/web-components/nw-syllabus-outline.js"
     ></script>
     <script
       defer
