@@ -149,7 +149,6 @@ if (workbox) {
           cache.addAll([
             '.',
             'index.html',
-            'styles/case-syllabus.css',
             'scripts/register-sw.js',
             'web-components/nw-syllabus-outline.js',
           ]),
