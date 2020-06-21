@@ -458,16 +458,8 @@
             </ul>
           </div>
 
-          <nw-syllabus-outline
-            mod1="Course intro, digital forensics profession and investigations, facilities, data aquisition (Ch1-3)"
-            mod2="Processing scenes, Windows, tools (Ch 4-5)"
-            mod3="Tools, Mac systems, Linux systems (Ch 6-7)"
-            mod4="Recovery, forensics analysis & validation (Ch 8-9)"
-            mod5="VM, cloud, network forensics (Ch 10-11)"
-            mod6="Email and mobile forensics (Ch 12-13)"
-            mod7="Ethics, review, final submission"
-          >
-          </nw-syllabus-outline>
+          <nw-syllabus-modules-outline> </nw-syllabus-modules-outline>
+          <nw-syllabus-schedule> </nw-syllabus-schedule>
 
           <h2>Instructional Methods and Techniques</h2>
 
@@ -601,7 +593,15 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- Include shared scripts -->
+    <!-- Include data-driven components -->
+
+    <script
+      defer
+      type="module"
+      src="./web-components/nw-syllabus-outline.js"
+    ></script>
+
+    <!-- Include shared components -->
 
     <script
       defer
@@ -615,10 +615,7 @@
       defer
       src="https://denisecase.github.io/44-517-bigdata-syllabus/web-components/nw-syllabus-nw-standard.js"
     ></script>
-    <script
-      defer
-      src="https://denisecase.github.io/44-517-bigdata-syllabus/web-components/nw-syllabus-outline.js"
-    ></script>
+
     <script
       defer
       src="https://denisecase.github.io/44-517-bigdata-syllabus/web-components/nw-syllabus-professor.js"
@@ -626,6 +623,10 @@
     <script
       defer
       src="https://denisecase.github.io/44-517-bigdata-syllabus/web-components/nw-syllabus-professor-standard.js"
+    ></script>
+    <script
+      defer
+      src="https://denisecase.github.io/44-517-bigdata-syllabus/web-components/nw-syllabus-schedule.js"
     ></script>
 
     <script
