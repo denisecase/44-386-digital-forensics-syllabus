@@ -2,10 +2,11 @@
 <html lang="en-US">
   <head>
     <!--  establish early connections to important third-party origins -->
-    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <link rel="preconnect" href="https://www.google-analytics.com" />
     <link rel="preconnect" href="https://storage.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://use.fontawesome.com" />
-    <link rel="preconnect" href="https://stackpath.bootstrapcdn.com" />
+    <link rel="preload" href="https://cdnjs.cloudflare.com" as="style" />
 
     <!-- Put Google Analytics immediately after head tag -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -96,10 +97,6 @@
     <link
       rel="stylesheet"
       href="https://denisecase.github.io/44-517-bigdata-syllabus/styles/case-syllabus.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://denisecase.github.io/44-517-bigdata-syllabus/styles/active-checks.css"
     />
 
     <!-- Service worker -->
@@ -444,36 +441,7 @@
             <li>Out-of-class reading, quizzes, and other activities.</li>
           </ul>
 
-          <h2>Grading and Evaluation</h2>
-
-          <p>Graded contributions</p>
-
-          <table class="tg">
-            <tr>
-              <th>Category</th>
-              <th>Contribution</th>
-            </tr>
-            <tr>
-              <td>Engagement</td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td>Demonstration</td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td>Quizzes</td>
-              <td>30%</td>
-            </tr>
-            <tr>
-              <td>Projects</td>
-              <td>50%</td>
-            </tr>
-            <tr>
-              <td>All</td>
-              <td>100%</td>
-            </tr>
-          </table>
+          <nw-syllabus-contributions></nw-syllabus-contributions>
 
           <p>Grading scale</p>
 
@@ -528,35 +496,19 @@
     <!-- Placed at the end so the page loads faster -->
     <!-- Add the 'defer' attribute for improved performance (script will be read after HTML finishes loading) -->
 
-    <!-- Copy in content from https://mdbootstrap.com/md-bootstrap-cdn/ -->
+    <!-- Placed at the end so the page loads faster -->
+    <!-- Add the 'defer' attribute for improved performance (script will be read after HTML finishes loading) -->
 
-    <!-- JQuery -->
+    <!-- Copy in content from https://mdbootstrap.com/docs/standard/getting-started/installation/ -->
+
+    <!-- MDB -->
     <script
       defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0-alpha3/mdb.min.js"
     ></script>
 
-    <!-- Bootstrap tooltips -->
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      defer
-      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- MDB core JavaScript -->
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"
-    ></script>
-
-    <!-- Copy in content from https://www.jsdelivr.    <!-- Mark.js -->
+    <!-- Mark.js -->
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.es6.min.js"
@@ -564,8 +516,17 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Google charts-->
+
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+
     <!-- Include custom data driven elements -->
 
+    <script
+      defer
+      type="module"
+      src="./custom-elements/nw-syllabus-contributions.js"
+    ></script>
     <script
       defer
       type="module"
