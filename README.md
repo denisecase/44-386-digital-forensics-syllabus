@@ -1,5 +1,6 @@
 # [44-386 Digital Forensics Syllabus](https://denisecase.github.io/44-386-digital-forensics-syllabus)
 
+![CI](https://github.com/denisecase/44-386-digital-forensics-syllabus/workflows/CI/badge.svg)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b320509b71b447cface77b357b806b4d)](https://www.codacy.com/manual/denisecase/44-386-digital-forensics-syllabus?utm_source=github.com&utm_medium=referral&utm_content=denisecase/44-386-digital-forensics-syllabus&utm_campaign=Badge_Grade)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/denisecase/44-386-digital-forensics-syllabus?style=flat)
